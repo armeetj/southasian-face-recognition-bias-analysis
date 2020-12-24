@@ -31,7 +31,7 @@ def run(directory, pretty_json):
         in_file = open(filepath, "rb")
         out_file = open(out_filepath, "w")
 
-        # prepare r_data
+        # prepare r_data 
         r_data = {}
         r_data["api_key"] = api_key
         r_data["api_secret"] = api_secret
