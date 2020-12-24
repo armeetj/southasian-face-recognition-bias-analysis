@@ -28,8 +28,10 @@ def scramble_file_names(directory):
         os.rename(directory + file, directory + str(i) + ".png")
         i += 1
 
+print("-- FORMATTING DATA (ETHNICITY: SIKH) --")
 scramble_file_names("./data/sikh/in/male/")
 scramble_file_names("./data/sikh/in/female/")
 rename_data("./data/sikh/in/male/", "male_in_")
 rename_data("./data/sikh/in/female/", "female_in_")
+print("-- COMPLETE --")
 
