@@ -19,7 +19,6 @@ except Exception:
     api_secret = input("Enter API Secret: ")
 print("-- AUTHENTICATION COMPLETE --\n\n")
 
-
 def run(directory, pretty_json):
     req_url = "https://api-us.faceplusplus.com/facepp/v3/detect"
 
