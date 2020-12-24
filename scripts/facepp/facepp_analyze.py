@@ -86,11 +86,11 @@ def run(directory, pretty_json):
         out_file.close()
     
 
-# print("-- RUNNING DATA (ETHNICITY: SIKH) --")
-# print("-- GENDER: MALE -- ")
-# run("./data/sikh/in/male/", True)
-# print("-- GENDER: FEMALE -- ")
-# run("./data/sikh/in/female/", True)
-# print("\n\n-- COMPLETE --")
+print("-- RUNNING DATA (ETHNICITY: SIKH) --")
+print("-- GENDER: MALE -- ")
+run("./data/sikh/in/male/", True)
+print("-- GENDER: FEMALE -- ")
+run("./data/sikh/in/female/", True)
+print("\n\n-- COMPLETE --")
 
-print(run_for_one("./data/img.png", True))
+# print(run_for_one("./data/img.png", True))
