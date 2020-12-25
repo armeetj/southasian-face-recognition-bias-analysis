@@ -30,7 +30,8 @@ def run(directory):
             top_y = img_data["faces"][0]["face_rectangle"]["top"]
             bottom_x = top_x + img_data["faces"][0]["face_rectangle"]["width"]
             bottom_y = top_y + img_data["faces"][0]["face_rectangle"]["height"]
-            img = cv2.rectangle(img, pt1=(top_x, top_y), pt2=(bottom_x, bottom_y), color=(255, 0, 255), thickness=2)
+            img = cv2.rectangle(img, pt1=(top_x, top_y), pt2=(bottom_x, bottom_y), color=(255, 0, 255), thickness=1)
         cv2.imwrite(out_filepath, img)
 
 run("./data/sikh/in/male/")
+run("./data/sikh/in/female/")
