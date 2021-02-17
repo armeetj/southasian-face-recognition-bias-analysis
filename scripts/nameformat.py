@@ -29,9 +29,13 @@ def scramble_file_names(directory):
         i += 1
 
 print("-- FORMATTING DATA (ETHNICITY: SIKH) --")
-scramble_file_names("./data/sikh/in/male/")
-scramble_file_names("./data/sikh/in/female/")
-rename_data("./data/sikh/in/male/", "male_in_")
-rename_data("./data/sikh/in/female/", "female_in_")
+# scramble_file_names("./data/sikh/in/male/")
+# rename_data("./data/sikh/in/male/", "male_in_")
+# scramble_file_names("./data/sikh/in/female/")
+# rename_data("./data/sikh/in/female/", "female_in_")
+# scramble_file_names("./data/latino/in/male/")
+# rename_data("./data/latino/in/male/", "male_in_")
+scramble_file_names("./data2/tamil_nadu/in/male/")
+rename_data("./data2/tamil_nadu/in/male/", "male_in_")
 print("-- COMPLETE --")
 

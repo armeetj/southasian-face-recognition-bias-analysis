@@ -33,5 +33,5 @@ def run(directory):
             img = cv2.rectangle(img, pt1=(top_x, top_y), pt2=(bottom_x, bottom_y), color=(255, 0, 255), thickness=1)
         cv2.imwrite(out_filepath, img)
 
-run("./data/sikh/in/male/")
-run("./data/sikh/in/female/")
+run("./data/white/in/male/")
+run("./data/white/in/female/")
