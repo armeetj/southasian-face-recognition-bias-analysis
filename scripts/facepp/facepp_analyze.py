@@ -87,9 +87,9 @@ def run(directory, pretty_json):
     
 
 print("-- GENDER: MALE -- ")
-run("./data/white/in/male/", True)
+run("./data2/tamil_nadu/in/male/", True)
 print("-- GENDER: FEMALE -- ")
-run("./data/white/in/female/", True)
+run("./data2/tamil_nadu/in/female/", True)
 print("\n\n-- COMPLETE --")
 
 # print(run_for_one("./data/img.png", True))
