@@ -19,7 +19,6 @@ def run(directory):
         try:
             json_file = json.loads(json_file.read())
             json_file = json_file["faces"][0]["attributes"]
-
             predicted_emotion_list = (json_file["emotion"])
             predicted_emotion = ["", -9999]
             for i in predicted_emotion_list:
@@ -33,5 +32,5 @@ def run(directory):
         counter += 1
     df.to_csv(output_file)
 
-run("./data2/tamil_nadu/out/male/")
-run("./data2/tamil_nadu/out/female/")
+run("./data2/gujrat/out/male/")
+run("./data2/gujrat/out/female/")
