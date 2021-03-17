@@ -32,5 +32,5 @@ def run(directory):
         counter += 1
     df.to_csv(output_file)
 
-run("./data2/gujrat/out/male/")
-run("./data2/gujrat/out/female/")
+run("./data2/west/out/male/")
+run("./data2/west/out/female/")

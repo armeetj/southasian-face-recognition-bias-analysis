@@ -34,8 +34,7 @@ def run_for_one(filepath, pretty_json):
     r_data["api_key"] = api_key
     r_data["api_secret"] = api_secret
     r_data["return_landmark"] = 2
-    r_data[
-        "return_attributes"] = "gender,age,smiling,headpose,facequality,blur,eyestatus,emotion,ethnicity,beauty,mouthstatus,eyegaze,skinstatus"
+    r_data["return_attributes"] = "gender,age,smiling,headpose,facequality,blur,eyestatus,emotion,ethnicity,beauty,mouthstatus,eyegaze,skinstatus"
 
     # prepare r_file
     r_file = dict(image_file = in_file.read())
