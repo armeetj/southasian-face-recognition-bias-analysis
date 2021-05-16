@@ -25,12 +25,18 @@ def run(directory):
                 if(predicted_emotion_list[i] > predicted_emotion[1]):
                     predicted_emotion[0] = i
                     predicted_emotion[1] = predicted_emotion_list[i]
-            df = df.append([{"id": counter, "predicted_ethnicity": json_file["ethnicity"]["value"], "predicted_emotion": str(predicted_emotion[0]), "predicted_gender": json_file["gender"]["value"], "male_beauty_score": json_file["beauty"]["male_score"], "female_beauty_score": json_file["beauty"]["female_score"]}])
+            df = df.append([
+                {
+                "id": counter,
+                    "predicted_ethnicity": (json_file["ethnicity"]["value"]) if (len(json_file["ethnicity"]["value"]) > 0) else "N/A",
+                    "predicted_emotion": str(predicted_emotion[0]),
+                    "predicted_gender": json_file["gender"]["value"],
+                    "male_beauty_score": json_file["beauty"]["male_score"],
+                    "female_beauty_score": json_file["beauty"]["female_score"]}])
         except Exception:
             print(in_filepath)
-
         counter += 1
     df.to_csv(output_file)
 
-run("./data2/west/out/male/")
-run("./data2/west/out/female/")
+run("./data2/facepp/north_punjab/out/male/")
+run("./data2/facepp/north_punjab/out/female/")
