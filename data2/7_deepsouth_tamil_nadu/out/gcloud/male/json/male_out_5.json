@@ -1,0 +1,334 @@
+{
+    "responses": [
+        {
+            "faceAnnotations": [
+                {
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 5
+                            },
+                            {
+                                "x": 75
+                            },
+                            {
+                                "x": 75,
+                                "y": 82
+                            },
+                            {
+                                "x": 5,
+                                "y": 82
+                            }
+                        ]
+                    },
+                    "fdBoundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 15,
+                                "y": 20
+                            },
+                            {
+                                "x": 73,
+                                "y": 20
+                            },
+                            {
+                                "x": 73,
+                                "y": 72
+                            },
+                            {
+                                "x": 15,
+                                "y": 72
+                            }
+                        ]
+                    },
+                    "landmarks": [
+                        {
+                            "type": "LEFT_EYE",
+                            "position": {
+                                "x": 36.85956,
+                                "y": 41.182858,
+                                "z": -0.00045877695
+                            }
+                        },
+                        {
+                            "type": "RIGHT_EYE",
+                            "position": {
+                                "x": 55.81462,
+                                "y": 40.891716,
+                                "z": 7.784562
+                            }
+                        },
+                        {
+                            "type": "LEFT_OF_LEFT_EYEBROW",
+                            "position": {
+                                "x": 29.611244,
+                                "y": 35.97451,
+                                "z": -1.2126871
+                            }
+                        },
+                        {
+                            "type": "RIGHT_OF_LEFT_EYEBROW",
+                            "position": {
+                                "x": 43.576225,
+                                "y": 37.630856,
+                                "z": -1.6667167
+                            }
+                        },
+                        {
+                            "type": "LEFT_OF_RIGHT_EYEBROW",
+                            "position": {
+                                "x": 52.624634,
+                                "y": 37.039104,
+                                "z": 2.0401196
+                            }
+                        },
+                        {
+                            "type": "RIGHT_OF_RIGHT_EYEBROW",
+                            "position": {
+                                "x": 61.769913,
+                                "y": 36.211876,
+                                "z": 11.742131
+                            }
+                        },
+                        {
+                            "type": "MIDPOINT_BETWEEN_EYES",
+                            "position": {
+                                "x": 48.646046,
+                                "y": 41.28118,
+                                "z": 0.2375642
+                            }
+                        },
+                        {
+                            "type": "NOSE_TIP",
+                            "position": {
+                                "x": 51.57139,
+                                "y": 53.680187,
+                                "z": -4.2560735
+                            }
+                        },
+                        {
+                            "type": "UPPER_LIP",
+                            "position": {
+                                "x": 48.876827,
+                                "y": 60.377876,
+                                "z": 0.23451197
+                            }
+                        },
+                        {
+                            "type": "LOWER_LIP",
+                            "position": {
+                                "x": 49.150642,
+                                "y": 66.79247,
+                                "z": 1.9643018
+                            }
+                        },
+                        {
+                            "type": "MOUTH_LEFT",
+                            "position": {
+                                "x": 39.552044,
+                                "y": 62.527115,
+                                "z": 2.052712
+                            }
+                        },
+                        {
+                            "type": "MOUTH_RIGHT",
+                            "position": {
+                                "x": 53.076073,
+                                "y": 62.75374,
+                                "z": 7.989917
+                            }
+                        },
+                        {
+                            "type": "MOUTH_CENTER",
+                            "position": {
+                                "x": 48.532013,
+                                "y": 63.123756,
+                                "z": 1.7506853
+                            }
+                        },
+                        {
+                            "type": "NOSE_BOTTOM_RIGHT",
+                            "position": {
+                                "x": 52.630573,
+                                "y": 55.514828,
+                                "z": 4.4679585
+                            }
+                        },
+                        {
+                            "type": "NOSE_BOTTOM_LEFT",
+                            "position": {
+                                "x": 42.985336,
+                                "y": 54.668793,
+                                "z": 0.37394822
+                            }
+                        },
+                        {
+                            "type": "NOSE_BOTTOM_CENTER",
+                            "position": {
+                                "x": 49.318195,
+                                "y": 56.6985,
+                                "z": -0.06773001
+                            }
+                        },
+                        {
+                            "type": "LEFT_EYE_TOP_BOUNDARY",
+                            "position": {
+                                "x": 36.8651,
+                                "y": 39.2757,
+                                "z": -1.220042
+                            }
+                        },
+                        {
+                            "type": "LEFT_EYE_RIGHT_CORNER",
+                            "position": {
+                                "x": 41.47101,
+                                "y": 41.847275,
+                                "z": 1.7074685
+                            }
+                        },
+                        {
+                            "type": "LEFT_EYE_BOTTOM_BOUNDARY",
+                            "position": {
+                                "x": 36.748055,
+                                "y": 42.72934,
+                                "z": -0.16175354
+                            }
+                        },
+                        {
+                            "type": "LEFT_EYE_LEFT_CORNER",
+                            "position": {
+                                "x": 32.422028,
+                                "y": 40.88301,
+                                "z": 0.0592255
+                            }
+                        },
+                        {
+                            "type": "RIGHT_EYE_TOP_BOUNDARY",
+                            "position": {
+                                "x": 56.76734,
+                                "y": 39.003872,
+                                "z": 6.7771764
+                            }
+                        },
+                        {
+                            "type": "RIGHT_EYE_RIGHT_CORNER",
+                            "position": {
+                                "x": 59.143356,
+                                "y": 40.60476,
+                                "z": 11.067032
+                            }
+                        },
+                        {
+                            "type": "RIGHT_EYE_BOTTOM_BOUNDARY",
+                            "position": {
+                                "x": 56.277943,
+                                "y": 42.495102,
+                                "z": 7.790868
+                            }
+                        },
+                        {
+                            "type": "RIGHT_EYE_LEFT_CORNER",
+                            "position": {
+                                "x": 52.293953,
+                                "y": 41.426903,
+                                "z": 6.2470617
+                            }
+                        },
+                        {
+                            "type": "LEFT_EYEBROW_UPPER_MIDPOINT",
+                            "position": {
+                                "x": 36.952885,
+                                "y": 34.944283,
+                                "z": -2.745687
+                            }
+                        },
+                        {
+                            "type": "RIGHT_EYEBROW_UPPER_MIDPOINT",
+                            "position": {
+                                "x": 57.88144,
+                                "y": 34.930542,
+                                "z": 5.7068605
+                            }
+                        },
+                        {
+                            "type": "LEFT_EAR_TRAGION",
+                            "position": {
+                                "x": 12.985588,
+                                "y": 45.302444,
+                                "z": 17.662157
+                            }
+                        },
+                        {
+                            "type": "RIGHT_EAR_TRAGION",
+                            "position": {
+                                "x": 63.69095,
+                                "y": 48.25969,
+                                "z": 35.316925
+                            }
+                        },
+                        {
+                            "type": "FOREHEAD_GLABELLA",
+                            "position": {
+                                "x": 48.71415,
+                                "y": 37.114517,
+                                "z": -0.40571088
+                            }
+                        },
+                        {
+                            "type": "CHIN_GNATHION",
+                            "position": {
+                                "x": 46.90237,
+                                "y": 75.79183,
+                                "z": 5.0192285
+                            }
+                        },
+                        {
+                            "type": "CHIN_LEFT_GONION",
+                            "position": {
+                                "x": 23.563885,
+                                "y": 63.664913,
+                                "z": 13.06466
+                            }
+                        },
+                        {
+                            "type": "CHIN_RIGHT_GONION",
+                            "position": {
+                                "x": 57.33385,
+                                "y": 64.062225,
+                                "z": 27.490126
+                            }
+                        },
+                        {
+                            "type": "LEFT_CHEEK_CENTER",
+                            "position": {
+                                "x": 32.904434,
+                                "y": 53.889187,
+                                "z": 1.0933734
+                            }
+                        },
+                        {
+                            "type": "RIGHT_CHEEK_CENTER",
+                            "position": {
+                                "x": 58.338715,
+                                "y": 53.734592,
+                                "z": 11.680781
+                            }
+                        }
+                    ],
+                    "rollAngle": 0.5417225,
+                    "panAngle": 22.613083,
+                    "tiltAngle": -4.436152,
+                    "detectionConfidence": 0.47785637,
+                    "landmarkingConfidence": 0.52364045,
+                    "joyLikelihood": "VERY_UNLIKELY",
+                    "sorrowLikelihood": "VERY_UNLIKELY",
+                    "angerLikelihood": "VERY_UNLIKELY",
+                    "surpriseLikelihood": "VERY_UNLIKELY",
+                    "underExposedLikelihood": "VERY_UNLIKELY",
+                    "blurredLikelihood": "VERY_UNLIKELY",
+                    "headwearLikelihood": "VERY_UNLIKELY"
+                }
+            ]
+        }
+    ]
+}
