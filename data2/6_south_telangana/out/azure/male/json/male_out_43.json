@@ -1,0 +1,208 @@
+[
+    {
+        "faceId": "c0e1b987-eeff-45e4-951e-54375939b1fc",
+        "faceRectangle": {
+            "top": 48,
+            "left": 23,
+            "width": 125,
+            "height": 125
+        },
+        "faceLandmarks": {
+            "pupilLeft": {
+                "x": 62.4,
+                "y": 79.7
+            },
+            "pupilRight": {
+                "x": 116.1,
+                "y": 90.4
+            },
+            "noseTip": {
+                "x": 86.4,
+                "y": 110.3
+            },
+            "mouthLeft": {
+                "x": 52.2,
+                "y": 134.4
+            },
+            "mouthRight": {
+                "x": 108.3,
+                "y": 145.5
+            },
+            "eyebrowLeftOuter": {
+                "x": 40.8,
+                "y": 63.0
+            },
+            "eyebrowLeftInner": {
+                "x": 81.6,
+                "y": 72.3
+            },
+            "eyeLeftOuter": {
+                "x": 51.9,
+                "y": 79.2
+            },
+            "eyeLeftTop": {
+                "x": 62.2,
+                "y": 77.2
+            },
+            "eyeLeftBottom": {
+                "x": 61.7,
+                "y": 82.4
+            },
+            "eyeLeftInner": {
+                "x": 70.3,
+                "y": 82.5
+            },
+            "eyebrowRightInner": {
+                "x": 102.2,
+                "y": 73.6
+            },
+            "eyebrowRightOuter": {
+                "x": 141.9,
+                "y": 86.4
+            },
+            "eyeRightInner": {
+                "x": 107.3,
+                "y": 89.2
+            },
+            "eyeRightTop": {
+                "x": 117.4,
+                "y": 88.5
+            },
+            "eyeRightBottom": {
+                "x": 115.9,
+                "y": 92.8
+            },
+            "eyeRightOuter": {
+                "x": 124.6,
+                "y": 93.7
+            },
+            "noseRootLeft": {
+                "x": 79.5,
+                "y": 86.2
+            },
+            "noseRootRight": {
+                "x": 100.0,
+                "y": 89.8
+            },
+            "noseLeftAlarTop": {
+                "x": 74.2,
+                "y": 100.7
+            },
+            "noseRightAlarTop": {
+                "x": 100.1,
+                "y": 104.7
+            },
+            "noseLeftAlarOutTip": {
+                "x": 64.4,
+                "y": 108.7
+            },
+            "noseRightAlarOutTip": {
+                "x": 104.2,
+                "y": 118.1
+            },
+            "upperLipTop": {
+                "x": 82.0,
+                "y": 130.7
+            },
+            "upperLipBottom": {
+                "x": 80.2,
+                "y": 139.2
+            },
+            "underLipTop": {
+                "x": 77.8,
+                "y": 142.7
+            },
+            "underLipBottom": {
+                "x": 76.2,
+                "y": 151.9
+            }
+        },
+        "faceAttributes": {
+            "smile": 1.0,
+            "headPose": {
+                "pitch": 2.1,
+                "roll": 9.8,
+                "yaw": -1.9
+            },
+            "gender": "male",
+            "age": 31.0,
+            "facialHair": {
+                "moustache": 0.1,
+                "beard": 0.1,
+                "sideburns": 0.1
+            },
+            "glasses": "ReadingGlasses",
+            "emotion": {
+                "anger": 0.0,
+                "contempt": 0.0,
+                "disgust": 0.0,
+                "fear": 0.0,
+                "happiness": 1.0,
+                "neutral": 0.0,
+                "sadness": 0.0,
+                "surprise": 0.0
+            },
+            "blur": {
+                "blurLevel": "low",
+                "value": 0.0
+            },
+            "exposure": {
+                "exposureLevel": "goodExposure",
+                "value": 0.63
+            },
+            "noise": {
+                "noiseLevel": "low",
+                "value": 0.0
+            },
+            "makeup": {
+                "eyeMakeup": false,
+                "lipMakeup": false
+            },
+            "accessories": [
+                {
+                    "type": "glasses",
+                    "confidence": 1.0
+                }
+            ],
+            "occlusion": {
+                "foreheadOccluded": false,
+                "eyeOccluded": false,
+                "mouthOccluded": false
+            },
+            "hair": {
+                "bald": 0.2,
+                "invisible": false,
+                "hairColor": [
+                    {
+                        "color": "black",
+                        "confidence": 0.95
+                    },
+                    {
+                        "color": "brown",
+                        "confidence": 0.8
+                    },
+                    {
+                        "color": "other",
+                        "confidence": 0.45
+                    },
+                    {
+                        "color": "gray",
+                        "confidence": 0.34
+                    },
+                    {
+                        "color": "blond",
+                        "confidence": 0.18
+                    },
+                    {
+                        "color": "red",
+                        "confidence": 0.12
+                    },
+                    {
+                        "color": "white",
+                        "confidence": 0.0
+                    }
+                ]
+            }
+        }
+    }
+]
