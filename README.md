@@ -1,4 +1,9 @@
 # Bias in Industry Leading Facial Recognition Services: A Regional Analysis Across South Asian Regions
+## Published Paper
+Published in International Journal for Innovative Research in Interdisciplinary Fields <br>
+https://www.ijirmf.com/wp-content/uploads/IJIRMF202108001.pdf
+![image](https://user-images.githubusercontent.com/38377327/155048246-ee274561-ca33-46ce-b8d9-3dff28abdeb9.png)
+
 ## Author
 Armeet Singh Jatyani <br>
 Independent Researcher – San Jose, California, United States.<br>
@@ -22,3 +27,18 @@ Azure facial recognition/detection services, that should be addressed to maintai
 
 ## Keywords
 `bias, ethnic bias, regional bias, gender bias, computer vision, faceplusplus, google cloud, microsoft azure, gender classification, detection accuracy`
+
+## Dataset
+- Total: 1600 Images
+- 8 Regions: 200 each (100 male, 100 female)
+Samples: 
+![image](https://user-images.githubusercontent.com/38377327/155048387-2847b50d-4959-4a89-be7a-3c5a2aa14a83.png)
+![image](https://user-images.githubusercontent.com/38377327/155048410-c1790b7e-f4ef-4288-addc-3d2c3d97b025.png)
+
+## Graphs
+Only a few graphs are shown here. To view all results and conclusions please read the full paper: 
+https://www.ijirmf.com/wp-content/uploads/IJIRMF202108001.pdf
+
+![image](https://user-images.githubusercontent.com/38377327/155048536-a5a10939-2bdb-489c-8025-1737ef5072cb.png)
+![image](https://user-images.githubusercontent.com/38377327/155048573-db5511f9-b5b3-47a9-ac3f-526203591d10.png)
+![image](https://user-images.githubusercontent.com/38377327/155048592-cfba917f-945c-4a1e-a08c-fc44802d7366.png)
