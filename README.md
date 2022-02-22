@@ -5,6 +5,7 @@ https://www.ijirmf.com/wp-content/uploads/IJIRMF202108001.pdf
 ![image](https://user-images.githubusercontent.com/38377327/155048246-ee274561-ca33-46ce-b8d9-3dff28abdeb9.png)
 
 ## Author
+<img src="https://user-images.githubusercontent.com/38377327/155048646-147361fb-ffda-4d0e-92c0-267a11992c9a.jpg" alt="Armeet Profile Picture" width="200"/>
 Armeet Singh Jatyani <br>
 Independent Researcher – San Jose, California, United States.<br>
 Email – armeetjatyani@gmail.com<br>
@@ -31,9 +32,9 @@ Azure facial recognition/detection services, that should be addressed to maintai
 ## Dataset
 - Total: 1600 Images
 - 8 Regions: 200 each (100 male, 100 female)
-Samples: 
-![image](https://user-images.githubusercontent.com/38377327/155048387-2847b50d-4959-4a89-be7a-3c5a2aa14a83.png)
-![image](https://user-images.githubusercontent.com/38377327/155048410-c1790b7e-f4ef-4288-addc-3d2c3d97b025.png)
+Samples:
+<image src="https://user-images.githubusercontent.com/38377327/155048387-2847b50d-4959-4a89-be7a-3c5a2aa14a83.png" width="700px" />
+<image src="https://user-images.githubusercontent.com/38377327/155048410-c1790b7e-f4ef-4288-addc-3d2c3d97b025.png" width="700px" />
 
 ## Graphs
 Only a few graphs are shown here. To view all results and conclusions please read the full paper: 
